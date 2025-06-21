@@ -7,7 +7,6 @@
     gap: 7vh;
     justify-content: space-evenly;
     position: fixed;
-<<<<<<< HEAD
     height: 100vh;
     transition-duration: 0.5s;
     transition-timing-function: ease in;    
@@ -24,11 +23,9 @@
     /* background-color: rgba (255,255,255,0.4); */
     border-radius: 25px;
     box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.089);
-=======
     backdrop-filter: blur(8px);
     background-color: rgba (255,255,255,0.4);
     
->>>>>>> 20ddbd83f216478882a98c36dc2755a2096214d0
 }
 
 .dp {
