@@ -223,7 +223,7 @@ body {
 
 .introduction {
     font-family: Poppins;
-    text-align: right;
+    text-align: left;
     
     height: 100vh; /* You can adjust this height */
     overflow-y: auto; /* Enables vertical scroll */
