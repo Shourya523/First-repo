@@ -107,7 +107,7 @@ body {
     /* size of the squares */
     border: 5px dashed lightblue;
     border-radius: 25px;
-    overflow: hidden;
+/*     overflow: hidden; */
     /* overflow-y:visible; */
     font-family: 'Poppins', sans-serif;
 }
