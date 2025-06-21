@@ -24,7 +24,7 @@
     border-left: 1px solid rgba (255,255,255,0.4);
     /* background-color: rgba (255,255,255,0.4); */
     border-radius: 25px;
-    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.089);    
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.089);
 }
 
 .dp {
@@ -131,11 +131,7 @@ body {
 }
 
 .main_body {
-<<<<<<< HEAD
     margin-left: 29.16vw;
-=======
-    margin-left: 25.16vw;
->>>>>>> 20ddbd83f216478882a98c36dc2755a2096214d0
     /* push it right so it doesn’t overlap sidebar */
     padding: 20px;
     /* optional: add some inner spacing */
