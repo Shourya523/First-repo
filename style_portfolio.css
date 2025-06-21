@@ -117,17 +117,19 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden; /* ✅ No page scroll */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
     background-color: white;
     background-image:
         linear-gradient(to right, #dedede 1px, transparent 1px),
         linear-gradient(to bottom, #dedede 1px, transparent 1px);
     background-size: 40px 40px;
-    /* size of the squares */
-    border: 5px dashed lightblue;
+    border: 5px dashed #51D3FF;
     border-radius: 25px;
-/*     overflow: hidden; */
-    /* overflow-y:visible; */
-    font-family: 'Poppins', sans-serif;
 }
 
 .main_body {
@@ -135,6 +137,11 @@ body {
     /* push it right so it doesn’t overlap sidebar */
     padding: 20px;
     /* optional: add some inner spacing */
+    height: 100vh;               /* ✅ Make it same as viewport */
+    overflow-y:hidden;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
 .name {
@@ -225,7 +232,7 @@ body {
     font-family: Poppins;
     text-align: left;
     
-    height: 100vh; /* You can adjust this height */
+    /* height: 100%;  */
     overflow-y: auto; /* Enables vertical scroll */
     padding-left: 30px; /* Prevent content from sticking to scrollbar */
     direction: rtl; 
@@ -241,8 +248,8 @@ body {
 .introduction::-webkit-scrollbar-thumb {
     background-color: #9ae6ff;
     border-radius: 100px;
-    box-shadow: inset 0px -1em rgba(53, 134, 255, 0.5);
-    height: 3.5em;
+    box-shadow: inset 0px -1.5em rgba(53, 134, 255, 0.5);
+    height: 3.;
 }
 .introduction > * {
     direction: ltr;
@@ -250,4 +257,193 @@ body {
 h2
 {
     text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 15.4vw;
+    height: 31.5vh;
+    border: 5px dashed #51D3FF;
+    border-radius: 25px;
+    box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3);
+}
+
+.html_logo {
+    width: 6vw;
+    height: 10.7vh;
+    background-image: url("html_trans.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2.5em;
+}
+
+.html_name {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4.5em;
+}
+.card2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 15.4vw;
+    height: 31.5vh;
+    border: 5px dashed #51D3FF;
+    border-radius: 25px;
+    box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3);
+}
+
+.css_logo {
+    width: 6vw;
+    height: 10.7vh;
+    background-image: url("css_trans.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2.5em;
+}
+
+.css_name {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4.5em;
+}
+.card3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 15.4vw;
+    height: 31.5vh;
+    border: 5px dashed #51D3FF;
+    border-radius: 25px;
+    box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3);
+}
+
+.cpp_logo {
+    width: 5vw;
+    height: 11vh;
+    background-image: url("cpp_trans.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2.5em;
+}
+
+.cpp_name {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4.5em;
+}
+.cards2 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    align-content: center;
+}
+.card4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 15.4vw;
+    height: 31.5vh;
+    border: 5px dashed #51D3FF;
+    border-radius: 25px;
+    box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3);
+}
+
+.dart_logo {
+    width: 5vw;
+    height: 11vh;
+    background-image: url("Dart_logo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2.5em;
+}
+
+.dart_name {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4.5em;
+}
+.card5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 15.4vw;
+    height: 31.5vh;
+    border: 5px dashed #51D3FF;
+    border-radius: 25px;
+    box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3);
+}
+
+.flutter_logo {
+    width: 5vw;
+    height: 11vh;
+    background-image: url("flutter_logo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2.5em;
+}
+
+.flutter_name {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4.5em;
+}
+.card6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 15.4vw;
+    height: 31.5vh;
+    border: 5px dashed #51D3FF;
+    border-radius: 25px;
+    box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3);
+}
+
+.python_logo {
+    width: 5vw;
+    height: 11vh;
+    background-image: url("py_image.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 2.5em;
+}
+
+.python_name {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4.5em;
 }
