@@ -245,10 +245,10 @@ body {
 }
 
 .introduction::-webkit-scrollbar-thumb {
-    background-color: #9ae6ff;
+    background-color: #51D3FF;
     border-radius: 100px;
-    box-shadow: inset 0px -1.5em rgba(53, 134, 255, 0.5);
-    height: 3.;
+    box-shadow: inset 0px -5em #00B0EB;
+    height: 3em;
 }
 .introduction > * {
     direction: ltr;
