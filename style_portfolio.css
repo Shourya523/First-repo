@@ -223,13 +223,12 @@ body {
 
 .introduction {
     font-family: Poppins;
-    text-align: left;
+    text-align: right;
     
     height: 100vh; /* You can adjust this height */
     overflow-y: auto; /* Enables vertical scroll */
     padding-left: 30px; /* Prevent content from sticking to scrollbar */
-    direction: rtl;
-    margin-left: -30px; 
+    direction: rtl; 
 }
 
 /* Optional Scrollbar Styling */
