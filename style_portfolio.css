@@ -1,19 +1,35 @@
 .sidebar {
     display: flex;
-    width: 33.16vw;
+    width: 25.16vw;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     gap: 5vh;
     justify-content: space-evenly;
     position: fixed;
+    height: 100vh;
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;    
+}
+.sidebar:hover
+{
+    width: 26vw;
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243,0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255,255,255,0.4);
+    border-left: 1px solid rgba (255,255,255,0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: 3px 1px 1px rgba(0, 0, 0, 0.089);
 }
 
 .dp {
     border: 2px solid rgba(0, 0, 0, 0);
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-top: 77px;
     background-image: url("dp\ shourya.jpg");
     background-size: cover;
@@ -23,8 +39,8 @@
 }
 
 .dp:hover {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     transition-duration: .5s;
     transition-timing-function: ease in;
 }
@@ -44,7 +60,7 @@
     transition-duration: .5s;
     transition-timing-function: ease in;
     color: black;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .skills {
@@ -61,7 +77,7 @@
     transition-duration: .5s;
     transition-timing-function: ease in;
     color: black;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .projects {
@@ -78,7 +94,7 @@
     transition-duration: .5s;
     transition-timing-function: ease in;
     color: black;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .contact_me {
@@ -95,7 +111,7 @@
     transition-duration: .5s;
     transition-timing-function: ease in;
     color: black;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 body {
@@ -107,12 +123,13 @@ body {
     /* size of the squares */
     border: 5px dashed lightblue;
     border-radius: 25px;
-    overflow: hidden;
+/*     overflow: hidden; */
     /* overflow-y:visible; */
+    font-family: 'Poppins', sans-serif;
 }
 
 .main_body {
-    margin-left: 33.16vw;
+    margin-left: 29.16vw;
     /* push it right so it doesn’t overlap sidebar */
     padding: 20px;
     /* optional: add some inner spacing */
@@ -120,7 +137,7 @@ body {
 
 .name {
     font-family: Poppins;
-    margin-top: 10.6vh;
+    margin-top: 10vh;
     font-size: 2.5em;
     text-align: right;
     margin-right: 8.5vw;
@@ -133,6 +150,7 @@ body {
     font-size: 1.5em;
     text-align: right;
     margin-right: 8.5vw;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
 }
 
 .nav_buttons {
@@ -203,7 +221,7 @@ body {
 
 .introduction {
     font-family: Poppins;
-    text-align: justify;
+    text-align: left;
     
     height: 100vh; /* You can adjust this height */
     overflow-y: auto; /* Enables vertical scroll */
