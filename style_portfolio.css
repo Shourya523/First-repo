@@ -109,6 +109,7 @@ body {
     border-radius: 25px;
     overflow: hidden;
     /* overflow-y:visible; */
+    font-family: 'Poppins', sans-serif;
 }
 
 .main_body {
