@@ -35,7 +35,7 @@
     /* margin-top: px; */
     background-image: url("dp\ shourya.jpg");
     background-size: cover;
-    box-shadow: -8px 6px 13.5px rgba(0, 0, 0, 0.7);
+    box-shadow: -4px 4px 13.5px rgba(0, 0, 0, 0.5);
     transition-duration: .5s;
     transition-timing-function: ease in;
 }
@@ -45,6 +45,7 @@
     height: 200px;
     transition-duration: .5s;
     transition-timing-function: ease in;
+    box-shadow: -8px 6px 13.5px rgba(0, 0, 0, 0.7);
     cursor: url('icons8-computer-mouse-20.png') 0 0, auto;
 }
 
