@@ -115,7 +115,28 @@
     color: black;
     /* text-decoration: underline; */
 }
-
+.github_logo {
+    width: 30px;
+    height: 30px;
+    background-image: url("git_logo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    display: inline-block;
+}
+.linkedin_logo {
+    width: 50px;
+    height: 30px;
+    background-image: url("linkedin_logo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    display: inline-block;
+    filter: saturate(0%) contrast(2);
+    
+}
 body {
     margin: 0;
     padding: 0;
