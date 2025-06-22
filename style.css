@@ -627,6 +627,15 @@ h3
     margin-top: 4.5em;
 }
 
+@keyframes rotateSun {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 body::before {
   content: "";
   position: absolute;
@@ -634,14 +643,23 @@ body::before {
   right: -150px;
   width: 300px;
   height: 300px;
-  background: #FFC300;
+  background: conic-gradient(
+    from 0deg,
+    #FFC300,
+    #FFD700,
+    #FFA500,
+    #FFC300
+  ); /* gradient gives visible movement */
   border-radius: 50%;
-  filter: blur(2px);             
-  box-shadow: -3px 14px 9.7px rgba(0, 0, 0, 0.25);
-    /* 0 0 80px 50px rgba(255, 215, 0, 0.6),
-    0 0 100px 70px rgba(255, 165, 0, 0.4); */
+  filter: blur(4px); /* slight blur but keeps pattern visible */
+  box-shadow:
+    0 0 80px 50px rgba(255, 195, 0, 0.3),
+    0 0 120px 90px rgba(255, 200, 0, 0.2),
+    0 0 180px 130px rgba(255, 170, 0, 0.15);
   pointer-events: none;
-  z-index: -1;                   /* behind everything */
+  z-index: -1;
+
+  animation: rotateSun 6s linear infinite; /* noticeable spin speed */
 }
 p
 {
