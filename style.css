@@ -995,3 +995,37 @@ p {
     word-wrap: break-word;
     margin-top: 3.5em;
 }
+.abt_me_sec:hover
+{
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243, 0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255, 255, 255, 0.4);
+    border-left: 1px solid rgba (255, 255, 255, 0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
+}
+.abt_me_sec{
+    padding: 2vw;
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
+.skills_sec:hover
+{
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243, 0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255, 255, 255, 0.4);
+    border-left: 1px solid rgba (255, 255, 255, 0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
+}
+.skills_sec{
+    padding: 2vw;
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
