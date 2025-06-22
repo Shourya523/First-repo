@@ -24,7 +24,7 @@
     border-left: 1px solid rgba (255,255,255,0.4);
     /* background-color: rgba (255,255,255,0.4); */
     border-radius: 25px;
-    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.089);
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
 }
 
 .dp {
@@ -274,7 +274,21 @@ h2
     height: 31.5vh;
     border: 5px dashed #51D3FF;
     border-radius: 25px;
-    box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3);
+    /* box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3); */
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
+.card1:hover
+{
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243,0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255,255,255,0.4);
+    border-left: 1px solid rgba (255,255,255,0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
 }
 
 .html_logo {
@@ -303,7 +317,21 @@ h2
     height: 31.5vh;
     border: 5px dashed #51D3FF;
     border-radius: 25px;
-    box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3);
+    /* box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3); */
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
+.card2:hover
+{
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243,0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255,255,255,0.4);
+    border-left: 1px solid rgba (255,255,255,0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
 }
 
 .css_logo {
@@ -332,7 +360,21 @@ h2
     height: 31.5vh;
     border: 5px dashed #51D3FF;
     border-radius: 25px;
-    box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3);
+    /* box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3); */
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
+.card3:hover
+{
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243,0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255,255,255,0.4);
+    border-left: 1px solid rgba (255,255,255,0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
 }
 
 .cpp_logo {
@@ -368,7 +410,23 @@ h2
     height: 31.5vh;
     border: 5px dashed #51D3FF;
     border-radius: 25px;
-    box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3);
+    /* box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3); */
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
+.card4:hover
+{
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243,0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255,255,255,0.4);
+    border-left: 1px solid rgba (255,255,255,0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
 }
 
 .dart_logo {
@@ -397,7 +455,21 @@ h2
     height: 31.5vh;
     border: 5px dashed #51D3FF;
     border-radius: 25px;
-    box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3);
+    /* box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3); */
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
+.card5:hover
+{
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243,0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255,255,255,0.4);
+    border-left: 1px solid rgba (255,255,255,0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
 }
 
 .flutter_logo {
@@ -426,7 +498,21 @@ h2
     height: 31.5vh;
     border: 5px dashed #51D3FF;
     border-radius: 25px;
-    box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3);
+    /* box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3); */
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
+.card6:hover
+{
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243,0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255,255,255,0.4);
+    border-left: 1px solid rgba (255,255,255,0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
 }
 
 .python_logo {
@@ -462,4 +548,8 @@ body::before {
     0 0 100px 70px rgba(255, 165, 0, 0.4); */
   pointer-events: none;
   z-index: -1;                   /* behind everything */
+}
+p
+{
+    font-size: 1.25em;
 }
