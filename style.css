@@ -340,7 +340,7 @@ body {
 .introduction::-webkit-scrollbar-thumb {
     background-color: #51D3FF;
     border-radius: 100px;
-    box-shadow: inset 0px -5em #00B0EB;
+    box-shadow: inset 0px -3em #00B0EB;
     height: 3em;
 }
 
@@ -1079,5 +1079,8 @@ a {
 a:hover {
   color: #005f99; /* Slightly darker blue on hover */
   border-bottom: 1px solid #007acc;
+}
+html {
+  scroll-behavior: smooth;
 }
 
