@@ -1034,3 +1034,50 @@ p {
     transition-duration: 0.5s;
     transition-timing-function: ease in;
 }
+.proj_sec{
+    padding: 2vw;
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
+.proj_sec:hover
+{
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243, 0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255, 255, 255, 0.4);
+    border-left: 1px solid rgba (255, 255, 255, 0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
+}
+.con_sec{
+    padding: 2vw;
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
+.con_sec:hover
+{
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243, 0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255, 255, 255, 0.4);
+    border-left: 1px solid rgba (255, 255, 255, 0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
+}
+a {
+  color: #007acc; /* Deep blue for good visibility */
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+a:hover {
+  color: #005f99; /* Slightly darker blue on hover */
+  border-bottom: 1px solid #007acc;
+}
+
