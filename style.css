@@ -28,7 +28,7 @@
 }
 
 .dp {
-    border: 2px solid rgba(0, 0, 0, 0);
+    border: 1.5px solid rgb(109, 109, 109);
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -1390,4 +1390,5 @@ html {
         padding: 0 5vw 0 0;
         overflow-y: auto;
     }
+    
 }
