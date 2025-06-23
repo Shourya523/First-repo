@@ -1331,13 +1331,15 @@ html {
         text-align: center;
         margin-right: 0;
         margin-top: 0em;
+        margin-left: 1vw;
     }
 
     .name {
         font-size: 1.5em;
         text-align: center;
         margin-right: 0;
-        margin-top: 15vh;
+        margin-top: 12.5vh;
+        margin-left: 1vw;
     }
 
     .x_logo,
