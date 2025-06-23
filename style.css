@@ -1112,7 +1112,6 @@ html {
         backdrop-filter: blur(2px);
         border-top: 1px solid rgba (255, 255, 255, 0.4);
         border-left: 1px solid rgba (255, 255, 255, 0.4);
-        /* background-color: rgba (255,255,255,0.4); */
         border-radius: 25px;
         box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
         z-index: 1000;
@@ -1258,6 +1257,10 @@ html {
     body::before {
         display: none;
     }
+    body
+    {
+        overflow-y: auto;
+    }
 
 }
 
@@ -1276,7 +1279,6 @@ html {
         backdrop-filter: blur(2px);
         border-top: 1px solid rgba (255, 255, 255, 0.4);
         border-left: 1px solid rgba (255, 255, 255, 0.4);
-        /* background-color: rgba (255,255,255,0.4); */
         border-radius: 25px;
         box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
         z-index: 1000;
@@ -1318,7 +1320,7 @@ html {
 
     body {
         overflow-x: hidden;
-        overflow-y: hidden;
+        overflow-y: auto;
         font-size: .8em;
         width: 100vw;
         height: 100vh;
