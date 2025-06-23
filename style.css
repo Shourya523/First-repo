@@ -1139,6 +1139,13 @@ html {
         /* margin-left: em; */
         /* margin-top: em; */
     }
+    .dp:hover {
+        width: 12vw;
+        height: 12vw;
+        border-radius: 50%;
+        /* margin-left: em; */
+        /* margin-top: em; */
+    }
 
     .about_me,
     .skills,
@@ -1163,6 +1170,14 @@ html {
     .linkedin_logo {
         width: 15px;
         height: 15px;
+        margin-top: .3em;
+        /* margin-inline-start: 0.2em; */
+    }
+    .x_logo:hover,
+    .github_logo:hover,
+    .linkedin_logo:hover {
+        width: 18px;
+        height: 18px;
         margin-top: .3em;
         /* margin-inline-start: 0.2em; */
     }
@@ -1230,7 +1245,7 @@ html {
 }
 @media screen and (max-width:500px) {
     .sidebar {
-        width: 25em;
+        width: 31em;
         height: 5em;
         display: flex;
         flex-direction: row;
@@ -1250,8 +1265,8 @@ html {
     }
 
     .sidebar:hover {
-        width: 97%;
-        height: 13%;
+        width: 31em;
+        height: 5em;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -1269,5 +1284,64 @@ html {
         font-weight: 600;
         margin-top: .1em;
         /* color: #333; */
-    }        
+    }
+    .about_me:hover,
+    .skills:hover,
+    .projects:hover,
+    .contact_me:hover {
+        margin-left: 1vw;
+        font-size: .9em;
+        font-weight: 600;
+        margin-top: .1em;
+        /* color: #333; */
+    }
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        font-size: .8em;
+    }
+    .degree
+    {
+        font-size: 1em;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 0em;
+    }
+    .name
+    {
+        font-size: 1.5em;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 6em;
+    }
+    .x_logo,
+    .github_logo,
+    .linkedin_logo {
+        width: 15px;
+        height: 15px;
+        margin-top: .3em;
+        /* margin-inline-start: 0.2em; */
+    }
+    .x_logo:hover,
+    .github_logo:hover,
+    .linkedin_logo:hover {
+        width: 18px;
+        height: 18px;
+        margin-top: .3em;
+        /* margin-inline-start: 0.2em; */
+    }
+    .dp {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        /* margin-left: em; */
+        /* margin-top: em; */
+    }
+    .dp:hover {
+        width: 12vw;
+        height: 12vw;
+        border-radius: 50%;
+        /* margin-left: em; */
+        /* margin-top: em; */
+    }       
 }
