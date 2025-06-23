@@ -1099,10 +1099,10 @@ html {
     display: none;
 }
 
-@media (max-width:768px) {
+@media (max-width:1050px) {
     .sidebar {
-        width: 97%;
-        height: 12%;
+        width: 97vw;
+        height: 12vh;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -1121,8 +1121,8 @@ html {
     }
 
     .sidebar:hover {
-        width: 97%;
-        height: 13%;
+        width: 97vw;
+        height: 13vh;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -1198,14 +1198,14 @@ html {
         font-size: 2em;
         text-align: center;
         margin-right: 0;
-        margin-top: 3em;
+        margin-top: 20vw;
     }
 
     .degree {
         font-size: 1.2em;
         text-align: center;
         margin-right: 0;
-        margin-top: 0.5em;
+        /* margin-top: em; */
         position: relative;
     }
     .card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12 {
@@ -1245,8 +1245,8 @@ html {
 }
 @media screen and (max-width:500px) {
     .sidebar {
-        width: 31em;
-        height: 5em;
+        width: 97vw;
+        height: 7vh;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -1265,8 +1265,8 @@ html {
     }
 
     .sidebar:hover {
-        width: 31em;
-        height: 5em;
+        width: 97vw;
+        height: 7vh;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -1299,6 +1299,8 @@ html {
         overflow-x: hidden;
         overflow-y: hidden;
         font-size: .8em;
+        width: 100vw;
+        height: 100vh;
     }
     .degree
     {
