@@ -1335,7 +1335,7 @@ html {
         font-size: 1.5em;
         text-align: center;
         margin-right: 0;
-        margin-top: 6em;
+        margin-top: 15vh;
     }
 
     .x_logo,
@@ -1374,5 +1374,16 @@ html {
 
     body::before {
         display: none;
+    }
+    .main_body {
+        width: 100vw;
+        /* margin-top: ; */
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 5vw 0 0;
+        overflow-y: auto;
     }
 }
