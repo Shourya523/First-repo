@@ -1126,12 +1126,12 @@ html {
         margin-right: 0;
         margin-top: 15vw;
         text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .degree_height_limit {
         font-family: Poppins;
-        font-size: 1.2em;
+        font-size: 1em;
         text-align: center;
         margin-right: 0vw;
         margin-top: 1vw;
@@ -1140,8 +1140,16 @@ html {
     }
     .introduction
     {
+        margin-top: 10vh;
+    }
+    .main_body
+    {
         margin-top: 5vh;
-    }    
+    }
+    .body 
+    {
+        margin-top: 10vh;
+    }   
 }
 
 @media (max-width:1050px) {
