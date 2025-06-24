@@ -1096,6 +1096,13 @@ html {
 .mobile_info_skills {
     display: none;
 }
+    .name_height_limit {
+        display: none;
+    }
+
+    .degree_height_limit {
+        display: none;
+    }
 
 @media (max-width:1050px) {
     .sidebar {
