@@ -1191,6 +1191,7 @@ html {
         justify-content: center;
         padding: 0 5vw 0 0;
         overflow-y: auto;
+        backdrop-filter: blur(.8px);
     }
 
     .name {
@@ -1338,15 +1339,16 @@ html {
         font-size: 1em;
         text-align: center;
         margin-right: 0;
-        margin-top: 0em;
+        margin-top: .5em;
         margin-left: 1vw;
+        
     }
 
     .name {
         font-size: 2em;
         text-align: center;
         margin-right: 0;
-        margin-top: 12.5vh;
+        margin-top: 14vh;
         margin-left: 1vw;
     }
 
@@ -1398,6 +1400,7 @@ html {
         justify-content: center;
         padding: 0 5vw 0 0;
         overflow-y: auto;
+        backdrop-filter: blur(.8px);
     }
 
     .introduction::-webkit-scrollbar {
