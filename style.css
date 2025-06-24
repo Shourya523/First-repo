@@ -1096,13 +1096,14 @@ html {
 .mobile_info_skills {
     display: none;
 }
-    .name_height_limit {
-        display: none;
-    }
 
-    .degree_height_limit {
-        display: none;
-    }
+.name_height_limit {
+    display: none;
+}
+
+.degree_height_limit {
+    display: none;
+}
 
 @media (max-width:1050px) {
     .sidebar {
@@ -1398,6 +1399,7 @@ html {
         padding: 0 5vw 0 0;
         overflow-y: auto;
     }
+
     .introduction::-webkit-scrollbar {
         width: 8px;
         background-color: rgba(211, 211, 211, 0);
