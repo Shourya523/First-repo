@@ -1104,7 +1104,7 @@ html {
 .degree_height_limit {
     display: none;
 } */
-@media screen and (min-width:1050px) {
+@media screen and (min-width:700px) {
 
     .name_height_limit {
         display: none;
@@ -1113,6 +1113,31 @@ html {
     .degree_height_limit {
         display: none;
     }
+}
+@media screen and (max-width:700px) {
+    .name
+    {display: none;}
+    .degree
+    {
+        display: none;
+    }
+    .name_height_limit {
+        text-align: center;
+        margin-right: 0;
+        margin-top: 15vw;
+        text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+        font-size: 2.5em;
+    }
+
+    .degree_height_limit {
+        font-family: Poppins;
+        font-size: 1.2em;
+        text-align: center;
+        margin-right: 0vw;
+        margin-top: 1vw;
+        text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+        color: rgb(87, 87, 87);
+    }    
 }
 
 @media (max-width:1050px) {
