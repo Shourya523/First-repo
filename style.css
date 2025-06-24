@@ -1257,8 +1257,8 @@ html {
     body::before {
         display: none;
     }
-    body
-    {
+
+    body {
         overflow-y: auto;
     }
 
@@ -1379,6 +1379,7 @@ html {
     body::before {
         display: none;
     }
+
     .main_body {
         width: 100vw;
         /* margin-top: ; */
@@ -1390,5 +1391,60 @@ html {
         padding: 0 5vw 0 0;
         overflow-y: auto;
     }
-    
+    .introduction::-webkit-scrollbar {
+        width: 8px;
+        background-color: rgba(211, 211, 211, 0);
+        border-radius: 100px;
+    }
+
+    .introduction::-webkit-scrollbar-thumb {
+        background-color: #51D3FF;
+        border-radius: 100px;
+        box-shadow: inset 0px -3em #00B0EB;
+        height: 3em;
+    }
+
+    .introduction::-webkit-scrollbar-thumb:active {
+        background-color: #FFC300;
+        box-shadow: inset 0px -5em #FF5733;
+        cursor: url('icons8-computer-mouse-20.png') 0 0, auto;
+    }
+
+    .introduction::-webkit-scrollbar-thumb:hover {
+        cursor: url('icons8-computer-mouse-20.png') 0 0, auto;
+    }
+
+    .introduction>* {
+        direction: ltr;
+    }
+
+}
+
+@media screen and (max-height: 650px) {
+    .name {
+        display: none;
+    }
+
+    .degree {
+        display: none;
+    }
+
+    .name_height_limit {
+        font-size: 2em;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 10vw;
+        text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+        font-size: 2.5em;
+    }
+
+    .degree_height_limit {
+        font-family: Poppins;
+        font-size: 1.2em;
+        text-align: center;
+        margin-right: 0vw;
+        margin-top: 1vw;
+        text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+        color: rgb(87, 87, 87);
+    }
 }
