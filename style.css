@@ -1097,12 +1097,22 @@ html {
     display: none;
 }
 
-.name_height_limit {
+/* .name_height_limit {
     display: none;
 }
 
 .degree_height_limit {
     display: none;
+} */
+@media screen and (min-width:1050px) {
+
+    .name_height_limit {
+        display: none;
+    }
+
+    .degree_height_limit {
+        display: none;
+    }
 }
 
 @media (max-width:1050px) {
