@@ -24,6 +24,10 @@
     margin-left: 2vw;
     transition-duration: 0.5s;
     transition-timing-function: ease in;
+    border-top: 1px solid rgba (255, 255, 255, 0.4);
+    border-left: 1px solid rgba (255, 255, 255, 0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
 }
 
 .sidebar:hover {
@@ -1032,6 +1036,7 @@ p {
     padding: 2vw;
     transition-duration: 0.5s;
     transition-timing-function: ease in;
+    
 }
 
 .skills_sec:hover {

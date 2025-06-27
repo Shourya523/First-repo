@@ -20,24 +20,37 @@ let ae_name = document.querySelector(".ae_name");
 let ps_name = document.querySelector(".ps_name");
 let figma_name = document.querySelector(".pr_name");
 let blender_name = document.querySelector(".blender_name");
-let mobile_info = document.querySelector(".mobile_info_skills");
+let mobile_info = document.querySelectorAll(".mobile_info_skills");
+let trademark=document.querySelector(".trademark");
+console.dir(mobile_info);
+let isDarkMode = false;
+
 themeToggle.onclick = () => {
-    console.log("button was clicked");
+  isDarkMode = !isDarkMode;
+
+  if (isDarkMode) {
+    // 🌙 DARK MODE
+    console.log("Dark mode enabled");
     body.style.backgroundColor = "#121212";
     body.style.color = "#E0E0E0";
     body.style.backgroundImage = "none";
+
     about_me.style.color = "#E0E0E0";
     skills.style.color = "#E0E0E0";
     projects.style.color = "#E0E0E0";
     contact_me.style.color = "#E0E0E0";
+
     sidebar.style.backgroundColor = "#2F2F2F";
+
     themeToggle.style.backgroundImage = "url('moon_darkmode.svg')";
     themeToggle.style.height = "1.75rem";
     themeToggle.style.width = "1.75rem";
-    themeToggle.style.filter = "invert()" + "opacity(50%)";
-    themeToggle.style.backgroundColor="none";
+    themeToggle.style.filter = "invert() opacity(50%)";
+    themeToggle.style.backgroundColor = "transparent";
+
     degree.style.color = "rgb(156, 156, 156)";
     name.style.gap = "1.2vw";
+
     html_name.style.color = "rgb(234, 234, 234)";
     css_name.style.color = "rgb(234, 234, 234)";
     flutter_name.style.color = "rgb(234, 234, 234)";
@@ -50,6 +63,52 @@ themeToggle.onclick = () => {
     ps_name.style.color = "rgb(234, 234, 234)";
     figma_name.style.color = "rgb(234, 234, 234)";
     blender_name.style.color = "rgb(234, 234, 234)";
-    mobile_info.style.color=" rgb(234,234,234)";
 
-}
+    mobile_info.forEach(el => {
+      el.style.color = "rgb(234, 234, 234)";
+    });
+
+    trademark.style.color = "rgb(190, 190, 190)";
+  } else {
+    // ☀️ LIGHT MODE
+    themeToggle.style.height = "2.5rem";
+    themeToggle.style.width = "2.5rem";
+    console.log("Light mode enabled");
+    body.style.backgroundColor = "#ffffff";
+    body.style.color = "#000000";
+    body.style.backgroundImage = ""; // or set back to original grid if needed
+
+    about_me.style.color = "#000000";
+    skills.style.color = "#000000";
+    projects.style.color = "#000000";
+    contact_me.style.color = "#000000";
+
+    sidebar.style.backgroundColor = "#ffffff";
+
+    themeToggle.style.backgroundImage = "url('sun_lightmode.svg')";
+    themeToggle.style.filter = "none";
+    themeToggle.style.backgroundColor = "transparent";
+
+    degree.style.color = "#666666";
+    name.style.gap = "1.2vw";
+
+    html_name.style.color = "#000000";
+    css_name.style.color = "#000000";
+    flutter_name.style.color = "#000000";
+    dart_name.style.color = "#000000";
+    c_name.style.color = "#000000";
+    cpp_name.style.color = "#000000";
+    js_name.style.color = "#000000";
+    python_name.style.color = "#000000";
+    ae_name.style.color = "#000000";
+    ps_name.style.color = "#000000";
+    figma_name.style.color = "#000000";
+    blender_name.style.color = "#000000";
+
+    mobile_info.forEach(el => {
+      el.style.color = "#000000";
+    });
+
+    trademark.style.color = "#333333";
+  }
+};
