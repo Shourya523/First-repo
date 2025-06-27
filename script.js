@@ -83,7 +83,7 @@ themeToggle.onclick = () => {
     projects.style.color = "#000000";
     contact_me.style.color = "#000000";
 
-    sidebar.style.backgroundColor = "#ffffff";
+    sidebar.style.backgroundColor = "";
 
     themeToggle.style.backgroundImage = "url('sun_lightmode.svg')";
     themeToggle.style.filter = "none";
