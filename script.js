@@ -1,5 +1,9 @@
 let themeToggle = document.querySelector(".dark_mode_toggle");
 console.dir(themeToggle);
+let abt_me_sec = document.querySelector(".abt_me_sec");
+let skills_sec = document.querySelector(".skills_sec");
+let proj_sec = document.querySelector(".proj_sec");
+let con_sec = document.querySelector(".con_sec");
 let body = document.querySelector("body");
 let about_me = document.querySelector(".about_me");
 let skills = document.querySelector(".skills");
@@ -21,7 +25,7 @@ let ps_name = document.querySelector(".ps_name");
 let figma_name = document.querySelector(".pr_name");
 let blender_name = document.querySelector(".blender_name");
 let mobile_info = document.querySelectorAll(".mobile_info_skills");
-let trademark=document.querySelector(".trademark");
+let trademark = document.querySelector(".trademark");
 console.dir(mobile_info);
 let isDarkMode = false;
 
@@ -29,6 +33,38 @@ themeToggle.onclick = () => {
   isDarkMode = !isDarkMode;
 
   if (isDarkMode) {
+    abt_me_sec.onmouseover = () => {
+      abt_me_sec.style.backgroundColor = "#2F2F2F";
+    };
+
+    skills_sec.onmouseover = () => {
+      skills_sec.style.backgroundColor = "#2F2F2F";
+    };
+
+    proj_sec.onmouseover = () => {
+      proj_sec.style.backgroundColor = "#2F2F2F";
+    };
+
+    con_sec.onmouseover = () => {
+      con_sec.style.backgroundColor = "#2F2F2F";
+    };
+    abt_me_sec.onmouseout = () => {
+      abt_me_sec.style.backgroundColor = "";
+    };
+
+    skills_sec.onmouseout = () => {
+      skills_sec.style.backgroundColor = "";
+    };
+
+    proj_sec.onmouseout = () => {
+      proj_sec.style.backgroundColor = "";
+    };
+
+    con_sec.onmouseout = () => {
+      con_sec.style.backgroundColor = "";
+    };
+
+
     // 🌙 DARK MODE
     console.log("Dark mode enabled");
     body.style.backgroundColor = "#121212";
@@ -40,7 +76,7 @@ themeToggle.onclick = () => {
     projects.style.color = "#E0E0E0";
     contact_me.style.color = "#E0E0E0";
 
-    sidebar.style.backgroundColor = "#2F2F2F";
+    sidebar.style.backgroundColor = "rgb(47, 47, 47)";
 
     themeToggle.style.backgroundImage = "url('moon_darkmode.svg')";
     themeToggle.style.height = "1.75rem";
@@ -112,3 +148,6 @@ themeToggle.onclick = () => {
     trademark.style.color = "#333333";
   }
 };
+
+
+
