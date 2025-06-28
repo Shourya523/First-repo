@@ -106,6 +106,33 @@ themeToggle.onclick = () => {
 
     trademark.style.color = "rgb(190, 190, 190)";
   } else {
+    abt_me_sec.onmouseover = () => {
+      abt_me_sec.style.backgroundColor = "#F5F5F5";
+    };
+    abt_me_sec.onmouseout = () => {
+      abt_me_sec.style.backgroundColor = "";
+    };
+
+    skills_sec.onmouseover = () => {
+      skills_sec.style.backgroundColor = "#F5F5F5";
+    };
+    skills_sec.onmouseout = () => {
+      skills_sec.style.backgroundColor = "";
+    };
+
+    proj_sec.onmouseover = () => {
+      proj_sec.style.backgroundColor = "#F5F5F5";
+    };
+    proj_sec.onmouseout = () => {
+      proj_sec.style.backgroundColor = "";
+    };
+
+    con_sec.onmouseover = () => {
+      con_sec.style.backgroundColor = "#F5F5F5";
+    };
+    con_sec.onmouseout = () => {
+      con_sec.style.backgroundColor = "";
+    };
     // ☀️ LIGHT MODE
     themeToggle.style.height = "2.5rem";
     themeToggle.style.width = "2.5rem";
