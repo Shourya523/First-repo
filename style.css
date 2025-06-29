@@ -1127,8 +1127,8 @@ html {
     .mobile-logo
     {
         display: flex ;
-        width: 2rem;
-        height: 2rem;
+        width: 1.5rem;
+        height: 1.5rem;
     }
     .sidebar {
         width: 97vw;
@@ -1147,6 +1147,7 @@ html {
         border-radius: 25px;
         box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
         z-index: 1000;
+        top: 85vh;
     }
 
     .sidebar:hover {
@@ -1159,6 +1160,7 @@ html {
         position: fixed;
         transition-duration: .5s;
         transition-timing-function: ease in;
+        top: 85vh;
     }
 
     .dp {
@@ -1231,7 +1233,7 @@ html {
         font-size: 2em;
         text-align: center;
         margin-right: 0;
-        margin-top: 22vw;
+        margin-top: 5vh;
     }
 
     .degree {
@@ -1328,6 +1330,7 @@ html {
         border-radius: 25px;
         box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
         z-index: 1000;
+        top: 85vh;
     }
 
     .sidebar:hover {
@@ -1385,7 +1388,7 @@ html {
         font-size: 2em;
         text-align: center;
         margin-right: 0;
-        margin-top: 14vh;
+        margin-top: 5vh;
         margin-left: 1vw;
     }
 
