@@ -1124,12 +1124,12 @@ html {
 }
 
 @media (max-width:1050px) {
-    .mobile-logo
+    /* .mobile-logo
     {
         display: flex ;
         width: 1.5rem;
         height: 1.5rem;
-    }
+    } */
     .sidebar {
         width: 97vw;
         height: 12vh;
@@ -1187,7 +1187,7 @@ html {
         font-size: 1.2em;
         font-weight: 600;
         margin-top: .1em;
-        display: none;
+        /* display: none; */
         /* color: #333; */
     }
 
