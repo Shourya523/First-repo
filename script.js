@@ -139,7 +139,12 @@ themeToggle.onclick = () => {
     console.log("Light mode enabled");
     body.style.backgroundColor = "#ffffff";
     body.style.color = "#000000";
-    body.style.backgroundImage = ""; // or set back to original grid if needed
+    body.style.backgroundImage =
+      "linear-gradient(to right, #dedede 1px, transparent 1px), " +
+      "linear-gradient(to bottom, #dedede 1px, transparent 1px)";
+    body.style.backgroundSize = "40px 40px";
+    body.style.cursor = "url('icons8-mouse-cursor-48.png') 0 0, auto";
+
 
     about_me.style.color = "#000000";
     skills.style.color = "#000000";
