@@ -34,19 +34,19 @@ themeToggle.onclick = () => {
 
   if (isDarkMode) {
     abt_me_sec.onmouseover = () => {
-      abt_me_sec.style.backgroundColor = "#2F2F2F";
+      abt_me_sec.style.backgroundColor = "rgba(255, 255, 255, 0.05)";
     };
 
     skills_sec.onmouseover = () => {
-      skills_sec.style.backgroundColor = "#2F2F2F";
+      skills_sec.style.backgroundColor = "rgba(255, 255, 255, 0.05)";
     };
 
     proj_sec.onmouseover = () => {
-      proj_sec.style.backgroundColor = "#2F2F2F";
+      proj_sec.style.backgroundColor = "rgba(255, 255, 255, 0.05)";
     };
 
     con_sec.onmouseover = () => {
-      con_sec.style.backgroundColor = "#2F2F2F";
+      con_sec.style.backgroundColor = "rgba(255, 255, 255, 0.05)";
     };
     abt_me_sec.onmouseout = () => {
       abt_me_sec.style.backgroundColor = "";
@@ -67,16 +67,16 @@ themeToggle.onclick = () => {
 
     // 🌙 DARK MODE
     console.log("Dark mode enabled");
-    body.style.backgroundColor = "#121212";
+    body.style.background = "linear-gradient(to right, #0b0c10, #1f2833)";
     body.style.color = "#E0E0E0";
-    body.style.backgroundImage = "none";
+    // body.style.backgroundImage = "none";
 
     about_me.style.color = "#E0E0E0";
     skills.style.color = "#E0E0E0";
     projects.style.color = "#E0E0E0";
     contact_me.style.color = "#E0E0E0";
 
-    sidebar.style.backgroundColor = "rgb(47, 47, 47)";
+    sidebar.style.backgroundColor = "rgba(255, 255, 255, 0.05)";
 
     themeToggle.style.backgroundImage = "url('moon_darkmode.svg')";
     themeToggle.style.height = "1.75rem";
