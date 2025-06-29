@@ -1148,7 +1148,8 @@ html {
         box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
         z-index: 1000;
         top: 75vh;
-        left: 3vw;
+        left: 1vw;
+        padding: 0 2vw 0 2vw;
     }
 
     .sidebar:hover {
@@ -1162,6 +1163,7 @@ html {
         transition-duration: .5s;
         transition-timing-function: ease in;
         left: 0vw;
+        padding: 0;
         /* top: 85vh; */
     }
 
@@ -1333,7 +1335,8 @@ html {
         box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
         z-index: 1000;
         top: 75vh;
-        left: 3vw;
+        left: 1vw;
+        padding: 0 2vw 0 2vw;
     }
 
     .sidebar:hover {
@@ -1347,6 +1350,8 @@ html {
         transition-duration: .5s;
         transition-timing-function: ease in;
         left: 0vw;
+        /* left: 1vw; */
+        padding: 0 0vw 0 0vw;
 
     }
 
