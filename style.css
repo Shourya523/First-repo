@@ -1131,7 +1131,7 @@ html {
         height: 1.5rem;
     } */
     .sidebar {
-        width: 97vw;
+        width: 90vw;
         height: 12vh;
         display: flex;
         flex-direction: row;
@@ -1148,10 +1148,11 @@ html {
         box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
         z-index: 1000;
         top: 75vh;
+        left: 3vw;
     }
 
     .sidebar:hover {
-        width: 97vw;
+        width: 95vw;
         height: 13vh;
         display: flex;
         flex-direction: row;
@@ -1160,6 +1161,7 @@ html {
         position: fixed;
         transition-duration: .5s;
         transition-timing-function: ease in;
+        left: 0vw;
         /* top: 85vh; */
     }
 
@@ -1314,7 +1316,7 @@ html {
     }
 
     .sidebar {
-        width: 97vw;
+        width: 90vw;
         height: 7vh;
         display: flex;
         flex-direction: row;
@@ -1331,10 +1333,11 @@ html {
         box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
         z-index: 1000;
         top: 75vh;
+        left: 3vw;
     }
 
     .sidebar:hover {
-        width: 97vw;
+        width: 95vw;
         height: 7vh;
         display: flex;
         flex-direction: row;
@@ -1343,6 +1346,8 @@ html {
         position: fixed;
         transition-duration: .5s;
         transition-timing-function: ease in;
+        left: 0vw;
+
     }
 
     .about_me,
