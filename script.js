@@ -77,6 +77,7 @@ themeToggle.onclick = () => {
     contact_me.style.color = "#E0E0E0";
 
     sidebar.style.backgroundColor = "rgba(255, 255, 255, 0.05)";
+    sidebar.style.border="1px solid rgba(255,255,255,0.2)";
 
     themeToggle.style.backgroundImage = "url('moon_darkmode.svg')";
     themeToggle.style.height = "1.75rem";
