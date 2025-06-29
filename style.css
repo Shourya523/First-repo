@@ -42,7 +42,10 @@
     border-radius: 25px;
     box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
 }
-
+.mobile-logo
+{
+    display: none;
+}
 .dp {
     border: 1.5px solid rgb(109, 109, 109);
     border-radius: 50%;
@@ -72,7 +75,7 @@
     margin-top: 20px;
     transition-duration: .5s;
     transition-timing-function: ease in;
-    color: rgb(87, 87, 87);
+    color: #575757;
 }
 
 .about_me:hover {
@@ -1121,6 +1124,12 @@ html {
 }
 
 @media (max-width:1050px) {
+    .mobile-logo
+    {
+        display: flex ;
+        width: 2rem;
+        height: 2rem;
+    }
     .sidebar {
         width: 97vw;
         height: 12vh;
@@ -1176,6 +1185,7 @@ html {
         font-size: 1.2em;
         font-weight: 600;
         margin-top: .1em;
+        display: none;
         /* color: #333; */
     }
 
