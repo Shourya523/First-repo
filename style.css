@@ -1365,6 +1365,12 @@ html {
         left: 1vw;
         padding: 0 2vw 0 2vw;
     }
+    .tech-stack-div
+    {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+    }
 
     .sidebar:hover {
         width: 95vw;
