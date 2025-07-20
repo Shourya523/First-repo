@@ -26,6 +26,7 @@
 }
 .tech-stack-div
 {
+    max-width: fit-content;
     display: flex;
     gap: .5em;
     padding-top: .75em;
@@ -1150,6 +1151,12 @@ html {
         width: 1.5rem;
         height: 1.5rem;
     } */
+    .tech-stack-div
+    {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+    }
     .sidebar {
         width: 90vw;
         height: 12vh;
