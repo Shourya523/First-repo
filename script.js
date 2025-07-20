@@ -158,6 +158,12 @@ themeToggle.onclick = () => {
     skills.style.color = "#000000";
     projects.style.color = "#000000";
     contact_me.style.color = "#000000";
+    techstackused.forEach(el => {
+      el.style.color = "#000000";
+    });
+    techstackused.forEach(el => {
+      el.style.backgroundColor = "#f0f0f0";
+    });
 
     sidebar.style.backgroundColor = "";
 
