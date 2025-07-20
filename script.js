@@ -26,6 +26,7 @@ let figma_name = document.querySelector(".pr_name");
 let blender_name = document.querySelector(".blender_name");
 let mobile_info = document.querySelectorAll(".mobile_info_skills");
 let trademark = document.querySelector(".trademark");
+let techstackused=document.querySelectorAll(".tech-stack-used");
 console.dir(mobile_info);
 let isDarkMode = false;
 
@@ -75,6 +76,12 @@ themeToggle.onclick = () => {
     skills.style.color = "#E0E0E0";
     projects.style.color = "#E0E0E0";
     contact_me.style.color = "#E0E0E0";
+    techstackused.forEach(el => {
+      el.style.color = "#E0E0E0";
+    });
+    techstackused.forEach(el => {
+      el.style.backgroundColor = "rgba(255, 255, 255, 0.1)";
+    });
 
     sidebar.style.backgroundColor = "rgba(48, 47, 47, 0.15)";
     sidebar.style.border="1px solid rgba(255,255,255,0.2)";
