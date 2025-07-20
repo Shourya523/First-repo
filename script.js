@@ -115,31 +115,40 @@ themeToggle.onclick = () => {
     trademark.style.color = "rgb(190, 190, 190)";
   } else {
     abt_me_sec.onmouseover = () => {
-      abt_me_sec.style.backgroundColor = "#F5F5F5";
+      abt_me_sec.style.backgroundColor = "rgba(245, 245, 245, .5)";
+      abt_me_sec.style.backdropFilter = "blur(2px)";
     };
     abt_me_sec.onmouseout = () => {
       abt_me_sec.style.backgroundColor = "";
+      abt_me_sec.style.backdropFilter = "none";
     };
+    
 
     skills_sec.onmouseover = () => {
-      skills_sec.style.backgroundColor = "#F5F5F5";
+      skills_sec.style.backgroundColor = "rgba(245, 245, 245, .5)";
+      skills_sec.style.backdropFilter = "blur(2px)";
     };
     skills_sec.onmouseout = () => {
       skills_sec.style.backgroundColor = "";
+      skills_sec.style.backdropFilter = "none";
     };
 
     proj_sec.onmouseover = () => {
-      proj_sec.style.backgroundColor = "#F5F5F5";
+      proj_sec.style.backgroundColor = "rgba(245, 245, 245, .5)";
+      proj_sec.style.backdropFilter = "blur(2px)";
     };
     proj_sec.onmouseout = () => {
       proj_sec.style.backgroundColor = "";
+      proj_sec.style.backdropFilter = "none";
     };
 
     con_sec.onmouseover = () => {
-      con_sec.style.backgroundColor = "#F5F5F5";
+      con_sec.style.backgroundColor = "rgba(245, 245, 245, .5)";
+      con_sec.style.backdropFilter = "blur(2px)";
     };
     con_sec.onmouseout = () => {
       con_sec.style.backgroundColor = "";
+      con_sec.style.backdropFilter = "none";
     };
     // ☀️ LIGHT MODE
     themeToggle.style.height = "2.5rem";
