@@ -1143,6 +1143,23 @@ html {
 .space_removable2 {
     display: none;
 }
+hr
+{
+    width: 97.5%;
+    height: 1px;
+    background-color: transparent;
+    border-top: 2px dotted #51D3FF;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
 
 @media (max-width:1050px) {
     /* .mobile-logo
