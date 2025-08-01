@@ -1507,12 +1507,12 @@ hr
         align-items: center;
         justify-content: center;
         width: 97%;
-        padding: 1vw;
+        padding: .5em;
         gap: 1vw;
         font-weight: 600;
         color: #333;
         border: 2px dashed #51D3FF;
-        border-radius: 25px;
+        border-radius: 20px;
         margin-bottom: 1em;
         transition-duration: 0.5s;
         transition-timing-function: ease in;
