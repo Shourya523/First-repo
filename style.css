@@ -23,6 +23,11 @@
     padding: 0em .5em;
     color: rgb(70, 70, 70);
     background-color: rgba(239, 239, 239, 0.5);
+    transition:0.2s ease-in-out;
+}
+.tech-stack-used:hover{
+    transform: scale(1.08);
+    transition:0.2s ease-in-out;
 }
 .tech-stack-div
 {
@@ -422,6 +427,7 @@ h3 {
     gap: 2vw;
     animation-timeline: view();
     animation-range: entry 0 cover 30%;
+    flex-wrap: wrap;
 }
 
 .card1 {
@@ -453,7 +459,7 @@ h3 {
 .html_logo {
     width: 3.5vw;
     height: 8.2vh;
-    background-image: url("html_trans.png");
+    background-image: url("html-svgrepo-com.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -497,7 +503,7 @@ h3 {
 .css_logo {
     width: 3.5vw;
     height: 8.2vh;
-    background-image: url("css_trans.png");
+    background-image: url("css-svgrepo-com.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -731,7 +737,7 @@ h3 {
 .python_logo {
     width: 4.2vw;
     height: 8vh;
-    background-image: url("python\ image.jpeg");
+    background-image: url("python-svgrepo-com.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -825,7 +831,7 @@ p {
 .js_logo {
     width: 4.5vw;
     height: 8vh;
-    background-image: url("js_logo.png");
+    background-image: url("js-svgrepo-com.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -838,18 +844,6 @@ p {
     font-weight: 600;
     text-align: center;
     margin-top: 4.5em;
-}
-
-.cards3 {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    justify-content: start;
-    gap: 2vw;
-    align-content: center;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 30%;
 }
 
 .card9 {
@@ -878,10 +872,120 @@ p {
     box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
 }
 
+.react_logo {
+    width: 4.5vw;
+    height: 8vh;
+    background-image: url("react-svgrepo-com.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1.5em;
+}
+
+.react_name {
+    font-size: .9em;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4.5em;
+}
+.card10 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 10vw;
+    height: 20.5vh;
+    border: 2px dashed #51D3FF;
+    border-radius: 25px;
+    /* box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3); */
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
+
+.card10:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243, 0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255, 255, 255, 0.4);
+    border-left: 1px solid rgba (255, 255, 255, 0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
+}
+
+.node_logo {
+    width: 4.5vw;
+    height: 8vh;
+    background-image: url("node-js-svgrepo-com.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1.5em;
+}
+
+.node_name {
+    font-size: .9em;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 4.5em;
+}
+
+.cards3 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content: start;
+    gap: 2vw;
+    align-content: center;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+.cards4 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content: start;
+    gap: 2vw;
+    align-content: center;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+
+
+.card13 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 10vw;
+    height: 20.5vh;
+    border: 2px dashed #51D3FF;
+    border-radius: 25px;
+    /* box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3); */
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
+
+.card13:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243, 0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255, 255, 255, 0.4);
+    border-left: 1px solid rgba (255, 255, 255, 0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
+}
 .ae_logo {
     width: 4.5vw;
     height: 8vh;
-    background-image: url("ae_logo.png");
+    background-image: url("adobe-after-effects-svgrepo-com.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -945,7 +1049,7 @@ p {
     line-height: 1.5em;
     white-space: normal;
     word-wrap: break-word;
-    margin-top: 3.5em;
+    margin-top: 4em;
 }
 
 .card11 {
@@ -973,11 +1077,96 @@ p {
     border-radius: 25px;
     box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
 }
+.express_logo {
+    width: 4.5vw;
+    height: 8vh;
+    background-image: url("express-svgrepo-com.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1.5em;
+}
+.express_name {
+    font-size: 0.85em;
+    font-weight: 600;
+    color: #333;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5em;
+    white-space: normal;
+    word-wrap: break-word;
+    margin-top: 4.75em;
+}
+.card16 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 10vw;
+    height: 20.5vh;
+    border: 2px dashed #51D3FF;
+    border-radius: 25px;
+    /* box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3); */
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+}
+
+.card16:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: ease in;
+    background-color: rgb(244, 243, 243, 0.5);
+    backdrop-filter: blur(2px);
+    border-top: 1px solid rgba (255, 255, 255, 0.4);
+    border-left: 1px solid rgba (255, 255, 255, 0.4);
+    /* background-color: rgba (255,255,255,0.4); */
+    border-radius: 25px;
+    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
+}
+.mongo_logo {
+    width: 4.5vw;
+    height: 8vh;
+    background-image: url("mongo-svgrepo-com.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1.5em;
+}
+.mongo_name {
+    font-size: 0.85em;
+    font-weight: 600;
+    color: #333;
+    width: fit-content;
+    text-align: center;
+    line-height: 1.5em;
+    white-space: normal;
+    word-wrap: break-word;
+    margin-top: 4.75em;
+}
+.firebase_logo {
+    width: 4.5vw;
+    height: 8vh;
+    background-image: url("firebase-svgrepo-com.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1.5em;
+}
+.firebase_name {
+    font-size: 0.85em;
+    font-weight: 600;
+    color: #333;
+    width: fit-content;
+    text-align: center;
+    line-height: 1.5em;
+    white-space: normal;
+    word-wrap: break-word;
+    margin-top: 4.75em;
+}
 
 .ps_logo {
     width: 4.5vw;
     height: 8vh;
-    background-image: url("ps_logo.png");
+    background-image: url("photoshop-cc-logo-svgrepo-com.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -993,7 +1182,7 @@ p {
     line-height: 1.5em;
     white-space: normal;
     word-wrap: break-word;
-    margin-top: 4em;
+    margin-top: 5em;
 }
 
 .card12 {
@@ -1023,9 +1212,9 @@ p {
 }
 
 .blender_logo {
-    width: 4.5vw;
-    height: 6.8vh;
-    background-image: url("blender_logo.png");
+    width: 4em;
+    height: 4em;
+    background-image: url("blender-svgrepo-com.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1041,7 +1230,7 @@ p {
     line-height: 1.5em;
     white-space: normal;
     word-wrap: break-word;
-    margin-top: 3.5em;
+    margin-top: 4.5em;
 }
 
 .abt_me_sec:hover {
@@ -1303,7 +1492,11 @@ hr
     .card9,
     .card10,
     .card11,
-    .card12 {
+    .card12,
+    .card13,
+    .card14,
+    .card15,
+    .card16 {
         display: none;
         /* gap: 15em; */
     }
@@ -1324,6 +1517,7 @@ hr
         transition-duration: 0.5s;
         transition-timing-function: ease in;
         flex-wrap: wrap;
+        text-align: center;
     }
 
     .mobile_info_skills:hover {
