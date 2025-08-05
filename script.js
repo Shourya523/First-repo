@@ -128,6 +128,8 @@ themeToggle.onclick = () => {
       js_name, python_name, ae_name, ps_name, figma_name, blender_name,
       react_name, node_name, express_name, mongo_name, firebase_name
     ].forEach(el => el.style.color = "#000000");
+    express_logo.style.backgroundImage = "url('express-svgrepo-com.svg')";
+
 
     mobile_info.forEach(el => el.style.color = "#000000");
     trademark.style.color = "#333333";
