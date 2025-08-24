@@ -194,7 +194,7 @@ function renderLeetCodeData(solvedData, calendarData, userProfile, username) {
     const leetcodeStats = document.querySelector(".leetcode_stats");
     leetcodeStats.innerHTML = `
         <div style="border-radius:12px; max-width:550px; font-family:Poppins;">
-            <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+            <div style="display:flex; gap:10px; margin-bottom:10px;">
                 ${userProfile.avatar ? `<img src="${userProfile.avatar}" alt="Avatar" style="width:50px; height:50px; border-radius:50%;">` : ''}
                 <p style="margin:0;"><strong>Username:</strong> ${username}</p>
             </div>
