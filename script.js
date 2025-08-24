@@ -193,8 +193,7 @@ async function getLeetCodeProgress(username = "ShouryaSensei") {
 function renderLeetCodeData(solvedData, calendarData, userProfile, username) {
     const leetcodeStats = document.querySelector(".leetcode_stats");
     leetcodeStats.innerHTML = `
-        <div style="padding:15px; border-radius:12px; max-width:550px; font-family:Poppins; background-color: rgba(240,240,240,0.2);">
-            <h2 style="margin-top:0; font-size:1.4rem;">LeetCode Progress</h2>
+        <div style="border-radius:12px; max-width:550px; font-family:Poppins; background-color: rgba(240,240,240,0.2);">
             <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
                 ${userProfile.avatar ? `<img src="${userProfile.avatar}" alt="Avatar" style="width:50px; height:50px; border-radius:50%;">` : ''}
                 <p style="margin:0;"><strong>Username:</strong> ${username}</p>
