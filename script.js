@@ -136,10 +136,6 @@ themeToggle.onclick = () => {
   }
 };
 
-// ------------------- LeetCode Progress Integration -------------------
-// ------------------- LeetCode Progress Integration -------------------
-// ------------------- LeetCode Progress Integration with Rate Limit Handling -------------------
-// ------------------- LeetCode Progress Integration with Avatar -------------------
 async function getLeetCodeProgress(username = "ShouryaSensei") {
     const leetcodeStats = document.querySelector(".leetcode_stats");
     if (!leetcodeStats) return console.error("No .leetcode_stats element found");
@@ -182,7 +178,7 @@ async function getLeetCodeProgress(username = "ShouryaSensei") {
     } catch (error) {
         console.error("Error fetching LeetCode progress:", error);
         leetcodeStats.innerHTML = `
-            <div style="padding:15px; border-radius:12px; font-family:Poppins; color:red;">
+            <div style="border-radius:12px; font-family:Poppins; color:red;">
                 Failed to load LeetCode data. ${error.message}.
             </div>
         `;
@@ -194,9 +190,9 @@ function renderLeetCodeData(solvedData, calendarData, userProfile, username) {
     const leetcodeStats = document.querySelector(".leetcode_stats");
     leetcodeStats.innerHTML = `
         <div style="border-radius:12px; max-width:550px; font-family:Poppins;">
-            <div style="display:flex; gap:10px; margin-bottom:10px;">
+            <div style="display:flex; gap:10px; margin-bottom:10px;align-items:center;padding-bottom:10px;">
                 ${userProfile.avatar ? `<img src="${userProfile.avatar}" alt="Avatar" style="width:50px; height:50px; border-radius:50%;">` : ''}
-                <p style="margin:0;"><strong>Username:</strong> ${username}</p>
+                <p style="margin:0;"><strong>${username}</strong></p>
             </div>
             <div style="display:flex; gap:10px; margin:10px 0;">
                 <span style="background-color:#239a3b; padding:5px 10px; border-radius:6px;">Easy: ${solvedData.easySolved}</span>
