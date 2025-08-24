@@ -204,7 +204,7 @@ function renderLeetCodeData(solvedData, calendarData, userProfile, username) {
                 <span style="background-color:red; padding:5px 10px; border-radius:6px;">Hard: ${solvedData.hardSolved}</span>
                 <span style="background-color:#196127; padding:5px 10px; border-radius:6px;">Total: ${solvedData.solvedProblem}</span>
             </div>
-            <div style="margin-top:15px;">
+            <div>
                 <strong>Submission Calendar:</strong>
                 <div style="display:flex; flex-wrap: wrap; gap:2px; margin-top:5px;">
                     ${generateCalendarHTML(calendarData)}
