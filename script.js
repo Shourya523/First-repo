@@ -135,3 +135,103 @@ themeToggle.onclick = () => {
     trademark.style.color = "#333333";
   }
 };
+
+// ------------------- LeetCode Progress Integration -------------------
+// ------------------- LeetCode Progress Integration -------------------
+// ------------------- LeetCode Progress Integration with Rate Limit Handling -------------------
+// ------------------- LeetCode Progress Integration with Avatar -------------------
+async function getLeetCodeProgress(username = "ShouryaSensei") {
+    const leetcodeStats = document.querySelector(".leetcode_stats");
+    if (!leetcodeStats) return console.error("No .leetcode_stats element found");
+
+    // Check cache
+    const cachedData = JSON.parse(localStorage.getItem("leetcodeCache") || "{}");
+    const now = Date.now();
+    if (cachedData.timestamp && (now - cachedData.timestamp < 1000 * 60 * 5)) {
+        renderLeetCodeData(cachedData.solvedData, cachedData.calendarData, cachedData.userProfile, username);
+        return;
+    }
+
+    try {
+        // Fetch solved questions
+        const solvedResponse = await fetch(`https://alfa-leetcode-api.onrender.com/${username}/solved`);
+        if (!solvedResponse.ok) throw new Error("Solved fetch failed");
+        const solvedData = await solvedResponse.json();
+
+        // Fetch user profile (for avatar)
+        const profileResponse = await fetch(`https://alfa-leetcode-api.onrender.com/${username}`);
+        if (!profileResponse.ok) throw new Error("Profile fetch failed");
+        const userProfile = await profileResponse.json();
+
+        // Fetch submission calendar
+        const calendarResponse = await fetch(`https://alfa-leetcode-api.onrender.com/${username}/calendar`);
+        if (!calendarResponse.ok) throw new Error("Calendar fetch failed");
+        const calendarDataRaw = await calendarResponse.json();
+        const calendarData = JSON.parse(calendarDataRaw.submissionCalendar);
+
+        // Cache data
+        localStorage.setItem("leetcodeCache", JSON.stringify({
+            timestamp: now,
+            solvedData,
+            calendarData,
+            userProfile
+        }));
+
+        renderLeetCodeData(solvedData, calendarData, userProfile, username);
+
+    } catch (error) {
+        console.error("Error fetching LeetCode progress:", error);
+        leetcodeStats.innerHTML = `
+            <div style="padding:15px; border-radius:12px; font-family:Poppins; color:red;">
+                Failed to load LeetCode data. ${error.message}.
+            </div>
+        `;
+    }
+}
+
+// Render stats + avatar
+function renderLeetCodeData(solvedData, calendarData, userProfile, username) {
+    const leetcodeStats = document.querySelector(".leetcode_stats");
+    leetcodeStats.innerHTML = `
+        <div style="padding:15px; border-radius:12px; max-width:550px; font-family:Poppins; background-color: rgba(240,240,240,0.2);">
+            <h2 style="margin-top:0; font-size:1.4rem;">LeetCode Progress</h2>
+            <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+                ${userProfile.avatar ? `<img src="${userProfile.avatar}" alt="Avatar" style="width:50px; height:50px; border-radius:50%;">` : ''}
+                <p style="margin:0;"><strong>Username:</strong> ${username}</p>
+            </div>
+            <div style="display:flex; gap:10px; margin:10px 0;">
+                <span style="background-color:#239a3b; padding:5px 10px; border-radius:6px;">Easy: ${solvedData.easySolved}</span>
+                <span style="background-color:#FF8C00; padding:5px 10px; border-radius:6px;">Medium: ${solvedData.mediumSolved}</span>
+                <span style="background-color:red; padding:5px 10px; border-radius:6px;">Hard: ${solvedData.hardSolved}</span>
+                <span style="background-color:#196127; padding:5px 10px; border-radius:6px;">Total: ${solvedData.solvedProblem}</span>
+            </div>
+            <div style="margin-top:15px;">
+                <strong>Submission Calendar:</strong>
+                <div style="display:flex; flex-wrap: wrap; gap:2px; margin-top:5px;">
+                    ${generateCalendarHTML(calendarData)}
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+// Calendar HTML (only days with submissions)
+function generateCalendarHTML(calendarData) {
+    let html = "";
+    Object.keys(calendarData).sort().forEach(key => {
+        const count = calendarData[key];
+        if (!count) return; // skip empty days
+
+        let color = "#c6e48b";
+        if (count > 2 && count <= 4) color = "#7bc96f";
+        else if (count > 4 && count <= 6) color = "#239a3b";
+        else if (count > 6) color = "#196127";
+
+        html += `<div title="Submissions: ${count}" style="width:12px; height:12px; background-color:${color}; border-radius:2px;"></div>`;
+    });
+    return html;
+}
+
+// Call on page load
+getLeetCodeProgress("ShouryaSensei");
+
