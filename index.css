@@ -25,6 +25,7 @@
     background-color: rgba(239, 239, 239, 0.5);
     transition:0.2s ease-in-out;
 }
+
 .tech-stack-used:hover{
     transform: scale(1.08);
     transition:0.2s ease-in-out;
@@ -444,17 +445,6 @@ h3 {
     transition-timing-function: ease in;
 }
 
-.card1:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
-}
 
 .html_logo {
     width: 3.5vw;
@@ -486,18 +476,6 @@ h3 {
     /* box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3); */
     transition-duration: 0.5s;
     transition-timing-function: ease in;
-}
-
-.card2:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
 }
 
 .css_logo {
@@ -532,18 +510,6 @@ h3 {
     transition-timing-function: ease in;
 }
 
-.card3:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
-}
-
 .cpp_logo {
     width: 3.5vw;
     height: 7.5vh;
@@ -574,18 +540,6 @@ h3 {
     /* box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3); */
     transition-duration: 0.5s;
     transition-timing-function: ease in;
-}
-
-.card6:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
 }
 
 .c_logo {
@@ -632,19 +586,6 @@ h3 {
     transition-timing-function: ease in;
 }
 
-.card4:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-}
 
 .dart_logo {
     width: 4vw;
@@ -678,18 +619,6 @@ h3 {
     transition-timing-function: ease in;
 }
 
-.card5:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
-}
-
 .flutter_logo {
     width: 3.5vw;
     height: 7.5vh;
@@ -720,18 +649,6 @@ h3 {
     /* box-shadow: -11px 11px 16.6px rgba(0, 0, 0, 0.3); */
     transition-duration: 0.5s;
     transition-timing-function: ease in;
-}
-
-.card7:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
 }
 
 .python_logo {
@@ -816,17 +733,7 @@ p {
     transition-timing-function: ease in;
 }
 
-.card8:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
-}
+
 
 .js_logo {
     width: 4.5vw;
@@ -860,17 +767,7 @@ p {
     transition-timing-function: ease in;
 }
 
-.card9:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
-}
+
 
 .react_logo {
     width: 4.5vw;
@@ -903,17 +800,6 @@ p {
     transition-timing-function: ease in;
 }
 
-.card10:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
-}
 
 .node_logo {
     width: 4.5vw;
@@ -971,17 +857,6 @@ p {
     transition-timing-function: ease in;
 }
 
-.card13:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
-}
 .ae_logo {
     width: 4.5vw;
     height: 8vh;
@@ -1018,17 +893,6 @@ p {
     transition-timing-function: ease in;
 }
 
-.card10:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
-}
 
 .pr_logo {
     width: 4.5vw;
@@ -1066,17 +930,6 @@ p {
     transition-timing-function: ease in;
 }
 
-.card11:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
-}
 .express_logo {
     width: 4.5vw;
     height: 8vh;
@@ -1111,17 +964,7 @@ p {
     transition-timing-function: ease in;
 }
 
-.card16:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
-}
+
 .mongo_logo {
     width: 4.5vw;
     height: 8vh;
@@ -1199,17 +1042,6 @@ p {
     transition-timing-function: ease in;
 }
 
-.card12:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease in;
-    background-color: rgb(244, 243, 243, 0.5);
-    backdrop-filter: blur(2px);
-    border-top: 1px solid rgba (255, 255, 255, 0.4);
-    border-left: 1px solid rgba (255, 255, 255, 0.4);
-    /* background-color: rgba (255,255,255,0.4); */
-    border-radius: 25px;
-    box-shadow: -5px 5px 1px rgba(0, 0, 0, 0.089);
-}
 
 .blender_logo {
     width: 4em;
