@@ -20,6 +20,7 @@ let dart_name = document.querySelector(".dart_name");
 let c_name = document.querySelector(".c_name");
 let cpp_name = document.querySelector(".cpp_name");
 let js_name = document.querySelector(".js_name");
+let ts_name = document.querySelector(".ts_name");
 let python_name = document.querySelector(".python_name");
 let ae_name = document.querySelector(".ae_name");
 let ps_name = document.querySelector(".ps_name");
@@ -30,6 +31,7 @@ let express_logo = document.querySelector(".express_logo");
 let react_name = document.querySelector(".react_name");
 let node_name = document.querySelector(".node_name");
 let express_name = document.querySelector(".express_name");
+let nextjs_name = document.querySelector(".nextjs_name");
 let mongo_name = document.querySelector(".mongo_name");
 let firebase_name = document.querySelector(".firebase_name");
 
@@ -75,8 +77,8 @@ themeToggle.onclick = () => {
 
     [
       html_name, css_name, flutter_name, dart_name, c_name, cpp_name,
-      js_name, python_name, ae_name, ps_name, figma_name, blender_name,
-      react_name, node_name, express_name, mongo_name, firebase_name
+      js_name,ts_name, python_name, ae_name, ps_name, figma_name, blender_name,
+      react_name, node_name, express_name,nextjs_name, mongo_name, firebase_name
     ].forEach(el => el.style.color = "rgb(234, 234, 234)");
     express_logo.style.backgroundImage = "url('expressdarkmode.svg')";
 
@@ -125,8 +127,8 @@ themeToggle.onclick = () => {
 
     [
       html_name, css_name, flutter_name, dart_name, c_name, cpp_name,
-      js_name, python_name, ae_name, ps_name, figma_name, blender_name,
-      react_name, node_name, express_name, mongo_name, firebase_name
+      js_name,ts_name, python_name, ae_name, ps_name, figma_name, blender_name,
+      react_name, node_name, express_name,nextjs_name, mongo_name, firebase_name
     ].forEach(el => el.style.color = "#000000");
     express_logo.style.backgroundImage = "url('express-svgrepo-com.svg')";
 
